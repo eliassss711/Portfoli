@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = 'es'></html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Activitat 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> 
+</head>
+<body>
+    <form method="post" action="">
+    <h1>Selección de Camaras</h1>
+    <fieldset>
+        <legend>Selecciona los parametros</legend>
+        <select name="Modelo">
+            <option value="" aria-label="Modelo" disabled selected>Marca</option>
+            <option value="1">Canon</option>
+            <option value="2">Casio</option>
+            <option value="3">GoPro</option>
+            <option value="4">Leica</option>
+            <option value="5">Nikon</option>
+            <option value="6">Pentax</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <select name="Sensor">
+            <option value="" aria-label="Sensor" disabled selected>Tamaño del sensor</option>
+            <option value="1">Hasta 1/2 3"</option>
+            <option value="2">De 1 a 1/2</option>
+            <option value="3">De 4/3 a APS-C</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <select name="Resolucion">
+            <option value="" aria-label="Resolucion" disabled selected>Resolucion aproximada</option>
+            <option value="0">Hasta 15 MP</option>
+            <option value="1">De 15 a 20 MP</option>
+            <option value="2">De 20 a 25 MP</option>
+            <option value="3">De 25 a 30 MP</option>
+            <option value="4">Mas de 30 MP</option>
+        </select><br><br>
+
+        <label>
+            Precio
+            <input type="number" name="Precio">
+        </label>&nbsp;&nbsp;&nbsp;
+
+        <label>
+            Cantidad
+            <input type="number">
+        </label><br><br>
+
+        <label>
+            Color
+        <input type="color">
+        </label>
+        
+        <button type="submit">
+            Continuar
+        </button>
+
+    </fieldset>  
+    </form>
+
+</body>
+
