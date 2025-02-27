@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+.cookie-banner {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s forwards; 
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

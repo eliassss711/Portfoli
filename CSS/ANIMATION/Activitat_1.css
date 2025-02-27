@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Fondo negro para simular el espacio */
+}
+.sol {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+}
+.lluna {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    animation: eclipse 5s infinite; /* Animación para el eclipse */
+}
+@keyframes eclipse {
+    0%, 100% {
+        transform: translateX(200px); /* Comienza fuera de la vista */
+    }
+    50% {
+        transform: translateX(0); /* Se mueve sobre el Sol */
+    }
+}

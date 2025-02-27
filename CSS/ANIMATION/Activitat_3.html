@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 3</title>
+    <link rel="stylesheet" href="Activitat_3.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+
+    <div class="cookie-banner" id="cookieBanner">
+        Este sitio usa cookies para mejorar tu experiencia. <button onclick="acceptCookies()">Aceptar</button>
+    </div>
+
+    <script>
+     
+        setTimeout(() => {
+            document.getElementById('cookieBanner').style.display = 'block';
+        }, 3000);
+
+        function acceptCookies() {
+            document.getElementById('cookieBanner').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>
