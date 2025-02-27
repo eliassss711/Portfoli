@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+h2 {
+    color: #333;
+}
+.arquitectura {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.descripcio {
+    max-height: 10rem;
+    overflow-y: auto;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    color: #666;
+    text-align: justify;
+}

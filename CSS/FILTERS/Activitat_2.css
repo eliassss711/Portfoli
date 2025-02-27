@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.imateg{
+    overflow: hidden;
+    border-radius: 10px;
+}
+img {
+    width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    transition: filter 0.3s ease;
+}
+img:hover {
+    filter: invert(100%);
+}
