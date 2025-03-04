@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.reloj {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aguja {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    transform-origin: bottom;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hora {
+    width: 6px;
+    height: 50px;
+    background-color: #ffcc00;
+    animation: girar-hora 43200s linear infinite; /* 12 horas en segundos */
+}
+
+.minuto {
+    width: 4px;
+    height: 70px;
+    background-color: #00ccff;
+    animation: girar-minuto 3600s linear infinite; /* 60 minutos en segundos */
+}
+
+.segundo {
+    width: 2px;
+    height: 90px;
+    background-color: red;
+    animation: girar-segundo 60s linear infinite; /* 60 segundos en segundos */
+}
+
+.centro {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+@keyframes girar-hora {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+@keyframes girar-minuto {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+@keyframes girar-segundo {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}

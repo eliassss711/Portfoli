@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.bold {
+    font-weight: bold;
+}
+.kodak {
+    color: orange;
+}
+.highlight-year {
+    background-color: #1e90ff;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.highlight-text {
+    background-color: #4682b4;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.photo {
+    color: purple;
+}
+.digital {
+    color: #ff69b4;
+}
+.analog {
+    color: #8a2be2;
+}
+.pharma {
+    background-color: #32cd32;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 3px;
+}

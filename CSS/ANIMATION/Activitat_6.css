@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+.pendulo {
+    position: relative;
+    width: 20px;
+    height: 200px;
+    animation: balanceo 2s ease-in-out infinite; 
+}
+
+.cuerda {
+    position: absolute;
+    width: 4px;
+    height: 100%; 
+    background-color: #ffcc00;
+    transform-origin: top; 
+}
+
+.peso {
+    position: absolute;
+    width: 40px; 
+    height: 40px; 
+    background-color: #00ccff; 
+    border-radius: 50%;
+    bottom: 0; 
+    left: -18px; 
+}
+
+@keyframes balanceo {
+    0% {
+        transform: rotate(-30deg); 
+    }
+    50% {
+        transform: rotate(30deg); 
+    }
+    100% {
+        transform: rotate(-30deg); 
+    }
+}

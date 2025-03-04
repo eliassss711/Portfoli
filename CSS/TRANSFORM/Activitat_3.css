@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.red-circle {
+    background-color: red;
+}
+.blue-circle {
+    background-color: rgba(0, 0, 255, 0.5);
+    margin-left: 20px; /* Espacio entre los círculos */
+}
+.blue-circle:hover {
+    transform: translateX(-100px); /* Mover a la izquierda */
+}

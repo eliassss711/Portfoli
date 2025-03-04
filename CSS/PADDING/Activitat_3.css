@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f0e6;
+}
+.contenedor {
+    max-width: 900px;
+    margin: 20px auto;
+    border: 2px solid #f4a100;
+    padding: 20px;
+    background: #fff7e5;
+    position: relative;
+}
+.contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text {
+    max-width: 50%;
+}
+.h1 {
+    font-size: 2em;
+    color: #3a342d;
+}
+.p {
+    font-size: 1.1em;
+    color: #3a342d;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons a {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.btn-green {
+    background-color: #007c59;
+    color: white;
+}
+.btn-dark {
+    background-color: transparent;
+    color: #3a342d;
+    border: 2px solid #3a342d;
+}
+.image-section {
+    max-width: 45%;
+}
+.footer {
+    background-color: #d8e3f0;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.pricing-table {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid #f4a100;
+}
+.pricing-table h2 {
+    background: #f4a100;
+    padding: 10px;
+    color: #3a342d;
+}
+.pricing-table .price {
+    font-size: 2em;
+    color: #3a342d;
+    margin: 10px 0;
+}
+.pricing-table ul {
+    list-style: none;
+    padding: 0;
+}
+.pricing-table ul li {
+    margin: 10px 0;
+}
+.btn-pricing {
+    background-color: #007c59;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.faq {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: white;
+}
+.faq-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+.faq-item:last-child {
+    border-bottom: none;
+}
+.faq-answer {
+    display: none;
+    padding: 10px;
+    color: #333;
+}
+.faq-item.open .faq-answer {
+    display: block;
+}

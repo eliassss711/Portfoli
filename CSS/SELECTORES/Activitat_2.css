@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    text-align: justify;
+}
+
+.h1 {
+    font-size: 3em;
+    font-family: 'Verdana, sans-serif';
+    color:rgb(17, 255, 0);
+    
+}
+
+.h2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 9);
+}
+
+
+
+body {
+    font-style: normal;
+    font-size: 2em;
+    font-family: monospace;
+    color: red
+}
+

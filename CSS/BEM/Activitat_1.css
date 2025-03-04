@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #3498db;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary-color);
+    padding: 10px 20px;
+    color: white;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.search-form input {
+    padding: 5px;
+}
+.search-form button {
+    padding: 5px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}

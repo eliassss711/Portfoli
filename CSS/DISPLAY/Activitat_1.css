@@ -1,0 +1,11 @@
+.contenedor {
+    display: flex;
+    gap: 20px;
+}
+.parrafo {
+    background-color: rgb(230, 173, 216);
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}

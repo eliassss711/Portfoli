@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 3</title>
+    <link rel="stylesheet" type="text/css" href="Activitat_3.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="conetnido">
+        <div class="faq">
+            <div class="faq-item">
+                <p>¿Qué métodos de pago se ofrecen?</p>
+                <div class="faq-answer">Aceptamos tarjetas de crédito, débito y PayPal.</div>
+            </div>
+            <div class="faq-item">
+                <p>¿Cómo puedo cambiarme a un plan diferente?</p>
+                <div class="faq-answer">Puedes cambiarte en la página de Facturación de tu cuenta.</div>
+            </div>
+            <div class="faq-item">
+                <p>¿Puedo optar por comprar créditos?</p>
+                <div class="faq-answer">Sí, puedes comprar créditos para envíos únicos.</div>
+            </div>
+        </div>
+    </div>
+   
+    <script>
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>
