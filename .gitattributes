@@ -1,2 +1,16 @@
-# Auto detect text files and perform LF normalization
+# Forcing text files to use LF (Unix) line endings
 * text=auto
+
+# Treat *.html and *.css files as text
+*.html text
+*.css text
+
+# Mark image files as binary to avoid diff/merge
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# UTF-8 encoding
+*.html text working-tree-encoding=UTF-8
+*.css  text working-tree-encoding=UTF-8
